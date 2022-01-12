@@ -123,15 +123,17 @@ section {
   transform: scale(1.02);
 }
 #model .box-model .img {
-  flex: 300px;
+  flex: 30%;
   border-radius: 0.35rem;
   overflow: hidden;
 }
-#model .box-model .img img {
-  display: block;
+#model .img img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 #model .box-model .text {
-  flex: 500px;
+  flex: 70%;
   place-content: center;
   gap: 1rem;
   padding: 0 10% 0 2%;
